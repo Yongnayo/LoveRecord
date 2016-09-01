@@ -92,7 +92,7 @@
 
         //异步获取文件信息
         $.ajax({
-            url: "https://iamjohnnyzhuang.github.io/LoveRecord/img",
+            url: getRootPath() +　"/img",
             success: function(data) {
                 //判断是否是图片
                 var regex = new RegExp("\\.jpg$|\\.png$");
